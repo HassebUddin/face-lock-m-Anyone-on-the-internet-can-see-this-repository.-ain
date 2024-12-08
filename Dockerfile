@@ -8,6 +8,7 @@ COPY Backend/package-lock.json ./
 RUN npm install
 
 COPY Backend .
+
 EXPOSE 5000
 
 CMD ["npm", "run", "dev"]
